@@ -1,4 +1,4 @@
-# hub-tms-pipeline
+# MEPSync-pipeline
 
 Pipeline de pos-processamento para integracao temporal entre sinais de Estimulacao Magnetica Transcraniana (TMS/EMG) e Ultrassonografia Diafragmatica em pacientes com Esclerose Lateral Amiotrofica (ELA).
 
