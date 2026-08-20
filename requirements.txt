@@ -1,0 +1,25 @@
+# ================================================
+# DiaTMS — Dependencias do Projeto
+# ================================================
+# Instalar com:
+#   python -m venv venv
+#   venv\Scripts\activate
+#   pip install -r requirements.txt
+# ================================================
+# --- Processamento de sinais neurofisiologicos ---
+mne>=1.6                # Leitura EDF/EDF+, filtragem, epochs
+numpy>=1.24             # Arrays e operacoes numericas
+scipy>=1.10             # Filtros digitais, FFT, deteccao de picos
+# --- Visualizacao ---
+matplotlib>=3.7         # Graficos de sinais e resultados
+seaborn>=0.12           # Graficos estatisticos (Bland-Altman etc.)
+# --- Tabelas e exportacao ---
+pandas>=2.0             # DataFrames, leitura/escrita CSV
+# --- Imagens medicas e video ---
+pydicom>=2.4            # Leitura de arquivos DICOM (ultrassom)
+opencv-python>=4.8      # Processamento de video AVI frame-a-frame
+# --- Estatistica ---
+pingouin>=0.5           # ICC, testes nao-parametricos, Bland-Altman
+# --- Ambiente de desenvolvimento ---
+jupyter>=1.0            # Jupyter Notebook
+ipykernel>=6.0          # Kernel Python para Jupyter
