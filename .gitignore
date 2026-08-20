@@ -1,6 +1,0 @@
-__pycache__/
-venv/
-*.pyc
-.env
-.idea/
-EOF
