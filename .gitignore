@@ -1,0 +1,42 @@
+# === DADOS SENSIVEIS (NUNCA VERSIONAR) ===
+data/raw/
+data/interim/
+data/processed/
+*.edf
+*.dcm
+*.avi
+*.dicom
+
+# === AMBIENTE PYTHON ===
+venv/
+venv_*/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# === LOGS E TEMPORARIOS ===
+*.log
+*.tmp
