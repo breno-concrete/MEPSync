@@ -177,8 +177,6 @@ Além disso, são coletados dados sociodemográficos (sexo, idade, estado civil,
 - [ ] 27 ou 22 canais de fNIRS?
 - [ ] 
 
-## 11. Próximas seções planejadas
+## 11. Status da leitura
 
-- [ ] 3 Ética e divulgação (página 17)
-- [ ] 4 Discussão (páginas 17–19)
-- [ ] 5 Limitações (páginas 19–20)
+- [x] Artigo lido por inteiro, incluindo 3 Ética e divulgação, 4 Discussão e 5 Limitações. Essas seções não geraram anotações.
