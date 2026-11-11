@@ -18,7 +18,7 @@
 
 Ver `docs/cronograma/2026-11_novembro.md`. Os quatro últimos vêm das referências do Laurentino.
 
-- [ ] CHAKALOV, I. et al. The role of the TMS parameters for activation of the corticospinal pathway to the diaphragm. *Clin. Neurophysiol.*, v. 138, p. 173–185, 2022. (PDF em `administrativo/04_Artigos_Referencia/`)
+- [x] CHAKALOV, I. et al. The role of the TMS parameters for activation of the corticospinal pathway to the diaphragm. *Clin. Neurophysiol.*, v. 138, p. 173–185, 2022. (PDF em `administrativo/04_Artigos_Referencia/`; lido em 10/11/2026; notas em `docs/leituras/05`)
 - [ ] MASKILL, D. et al. Motor cortical representation of the diaphragm in man. *J. Physiol.*, v. 443, p. 105–121, 1991.
 - [ ] LUO, Y. M.; MOXHAM, J.; POLKEY, M. I. Diaphragm electromyogram measured with unilateral magnetic stimulation. *Eur. Respir. J.*, v. 13, p. 385–390, 1999.
 - [ ] WELCH, J. F. et al. Reliability of diaphragmatic motor-evoked potentials induced by transcranial magnetic stimulation. *J. Appl. Physiol.*, v. 129, p. 1393–1404, 2020.
@@ -37,6 +37,20 @@ Laurentino et al. (2025) descrevem o protocolo de um ensaio multicêntrico, rand
 
 **Relevância para o projeto:**
 Define o protocolo de TMS que o MEPSync processa: hotspot, 80% da potência máxima no fim da expiração, 5 pulsos com intervalo de 45 a 60 s, latência e amplitude. O artigo já coleta EMG e fNIRS ao mesmo tempo, mas **não usa ultrassom diafragmático**. Essa é a lacuna que o projeto preenche.
+
+---
+
+### Chakalov et al., 2022 — Parâmetros da TMS no diafragma
+
+> CHAKALOV, I. et al. The role of the TMS parameters for activation of the corticospinal pathway to the diaphragm. *Clin. Neurophysiol.*, v. 138, p. 173–185, 2022.
+
+**Por que li:** é o artigo central sobre como o pulso de TMS afeta o diMEP, que é a medida que o MEPSync processa (cronograma, 10/11).
+
+**Resumo (1 parágrafo):**
+Chakalov et al. (2022) compararam quatro configurações de pulso de TMS neuronavegada: forma de onda monofásica ou bifásica e corrente anterior-posterior (AP) ou posterior-anterior (PA). Os pulsos foram dados no fim da expiração passiva, em 19 voluntários saudáveis. O diMEP foi captado por eletrodos de superfície no 7º a 9º espaço intercostal. Músculos vizinhos (serrátil/grande dorsal e abdominais) também foram registrados, para controlar contaminação. O ultrassom (modos B e M) confirmava em tempo real o movimento do diafragma. O pulso bifásico teve limiar menor (~68% contra ~88% da potência máxima) e diMEP maior (~0,28 contra ~0,19 mV). Com o monofásico, 6 dos 19 participantes não responderam nem a 100% da potência. A corrente AP gerou latências menores (~16,4 ms). O hotspot ficou no mesmo lugar nas quatro configurações, mas precisou ser procurado de novo a cada troca de pulso.
+
+**Relevância para o projeto:**
+Refina a lacuna do MEPSync. TMS e ultrassom já foram usados ao mesmo tempo, mas o ultrassom serviu só como checagem visual e manual, feita por um segundo examinador, sem sincronização nem medida quantitativa. O artigo também dá parâmetros para o código: amostragem de 5 kHz, latência medida do artefato até o início do MEP, amplitude pico a pico e critério de 50 µV. E dá janelas de latência que separam o diMEP (~16–17 ms) da contaminação por serrátil/dorsal (~13 ms) e por abdominais (~20 ms), úteis como controle de qualidade automático.
 
 ---
 

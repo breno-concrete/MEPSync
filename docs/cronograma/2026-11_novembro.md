@@ -30,12 +30,12 @@ Notas detalhadas em `docs/leituras/` (como as do Laurentino) **só para os artig
 
 | Dia | Artigo | Por que ler | Feito |
 |---|---|---|---|
-| Seg 09/11 | MASKILL, D. et al. Motor cortical representation of the diaphragm in man. *J. Physiol.*, v. 443, p. 105–121, 1991. | Onde fica o córtex do diafragma. É a referência de localização que o Laurentino usa. | [ ] |
-| Ter 10/11 | ★ CHAKALOV, I. et al. The role of the TMS parameters for activation of the corticospinal pathway to the diaphragm. *Clin. Neurophysiol.*, v. 138, p. 173–185, 2022. (PDF já em `administrativo/04_Artigos_Referencia/`) | Pulso monofásico × bifásico, direção da corrente, hotspot. | [ ] |
+| Seg 09/11 | MASKILL, D. et al. Motor cortical representation of the diaphragm in man. *J. Physiol.*, v. 443, p. 105–121, 1991. | Onde fica o córtex do diafragma. É a referência de localização que o Laurentino usa. | [ ] → passou para sáb 14/11 |
+| Ter 10/11 | ★ CHAKALOV, I. et al. The role of the TMS parameters for activation of the corticospinal pathway to the diaphragm. *Clin. Neurophysiol.*, v. 138, p. 173–185, 2022. (PDF já em `administrativo/04_Artigos_Referencia/`) | Pulso monofásico × bifásico, direção da corrente, hotspot. | [x] |
 | Qua 11/11 | LUO, Y. M.; MOXHAM, J.; POLKEY, M. I. Diaphragm electromyogram measured with unilateral magnetic stimulation. *Eur. Respir. J.*, v. 13, p. 385–390, 1999. | Como se capta o EMG do diafragma na superfície (7º–8º espaço intercostal). | [ ] |
 | Qui 12/11 | ★ WELCH, J. F. et al. Reliability of diaphragmatic motor-evoked potentials induced by transcranial magnetic stimulation. *J. Appl. Physiol.*, v. 129, p. 1393–1404, 2020. | Confiabilidade do MEP diafragmático. É a base do ICC que o projeto vai calcular. | [ ] |
 | Sex 13/11 | LEFAUCHEUR, J. P.; LOFASO, F. Diaphragmatic silent period to transcranial magnetic cortical stimulation... *Exp. Brain Res.*, v. 146, p. 404–409, 2002. | Período de silêncio cortical (CSP) no diafragma. | [ ] |
-| Sáb 14 – Dom 15 | Reposição. **Familiarização:** escrever o relato das visitas e das coletas simuladas (ver lista abaixo). | | [ ] |
+| Sáb 14 – Dom 15 | Reposição: **Maskill (1991)**, que ficou de 09/11. **Familiarização:** escrever o relato das visitas e das coletas simuladas (ver lista abaixo). | | [ ] |
 
 ## Semana 2 — 16 a 20/11: TMS na ELA + ultrassom diafragmático
 

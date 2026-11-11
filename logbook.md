@@ -177,4 +177,32 @@
 
 ---
 
+### 2026-11-10 (Terca) — Leitura 05, Chakalov et al. (2022)
+
+**Tempo dedicado:** não registrado
+**Fase do roadmap:** Mês 2 — revisão bibliográfica
+
+**O que fiz:**
+- Retomei o trabalho depois de mudar o repo de pasta. Não li o Maskill no dia 09/11, e ele passou para a reposição de sábado, 14/11.
+- Li o Chakalov et al. (2022) até a página 8 e fiz anotações. O resto (Discussão e Conclusão) li só pelo resumo.
+- Notas detalhadas em `docs/leituras/05_chakalov_parametros_tms/` e resumo em `docs/04_REVISAO_BIBLIOGRAFICA.md`.
+
+**O que aprendi:**
+- O pulso bifásico ativa melhor o diafragma que o monofásico: limiar menor (~68% contra ~88%) e diMEP maior. Com o monofásico, 6 de 19 pessoas nem responderam.
+- No bifásico, a fase que conta é a segunda, que tem sentido oposto ao da primeira e dura o dobro.
+- A corrente AP dá latência um pouco menor que a PA.
+- O ultrassom (modos B e M) foi usado só para confirmar visualmente que o diafragma se mexeu. Não houve sincronização dos dados. Essa é a lacuna do MEPSync.
+- A latência separa o diMEP (~16–17 ms) da contaminação por serrátil/dorsal (~13 ms) e por abdominais (~20 ms).
+- Eles estimularam no fim da expiração passiva. A inspiração voluntária baixa o limiar, mas aumenta a contaminação.
+- Síncope reflexa é um desmaio por reflexo. No estudo, aconteceu depois da estimulação elétrica do frênico, não da TMS.
+
+**Problemas encontrados:**
+- Pendente para a orientadora: o aparelho de TMS do HUB é mono ou bifásico?
+
+**Proximos passos:**
+- 11/11: Luo, Moxham e Polkey (1999).
+- 14/11: Maskill (1991) e relato das visitas.
+
+---
+
 <!-- COPIE O TEMPLATE ACIMA PARA CADA NOVO DIA -->
